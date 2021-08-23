@@ -22,4 +22,11 @@ public class FizzbuzzTest {
         String result = subject.generate(3);
         assertEquals("1, 2, Fizz", result);
     }
+    @Test
+
+    void testGenerateListsNumbersUpToFive() {
+        Fizzbuzz subject = new Fizzbuzz();
+        String result = subject.generate(5);
+        assertEquals("1, 2, Fizz, 4, Buzz", result);
+    }
 }

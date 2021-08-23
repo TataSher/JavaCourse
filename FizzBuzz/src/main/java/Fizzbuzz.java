@@ -8,6 +8,8 @@ public class Fizzbuzz {
             String number = numbers[i];
             if ( (i+1) % 3 == 0) {
                 numbers[i] = "Fizz";
+            } else if ( (i+1) % 5 == 0) {
+                numbers[i] = "Buzz";
             } else {
                 numbers[i] = String.valueOf(i + 1);
             }

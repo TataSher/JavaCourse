@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="FizzbuzzTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2021-08-23T22:21:02" hostname="MacBook-Air-KingDodo.local" time="0.022">
+<testsuite name="FizzbuzzTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2021-08-23T22:24:03" hostname="MacBook-Air-KingDodo.local" time="0.026">
   <properties/>
-  <testcase name="testGenerateListsNumbersUpToThree()" classname="FizzbuzzTest" time="0.017"/>
-  <testcase name="testGenerateListsNumbersUpToOne()" classname="FizzbuzzTest" time="0.002"/>
+  <testcase name="testGenerateListsNumbersUpToThree()" classname="FizzbuzzTest" time="0.02"/>
+  <testcase name="testGenerateListsNumbersUpToFive()" classname="FizzbuzzTest" time="0.001"/>
+  <testcase name="testGenerateListsNumbersUpToOne()" classname="FizzbuzzTest" time="0.0"/>
   <testcase name="testGenerateListsNumbersUpToTwo()" classname="FizzbuzzTest" time="0.001"/>
   <system-out><![CDATA[1, 2, Fizz
+1, 2, Fizz, 4, Buzz
 1
 1, 2
 ]]></system-out>
