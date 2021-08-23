@@ -5,23 +5,85 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c64de4c4-4044-481a-b4c4-e1b242b09158" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/FizzBuzz.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/FizzBuzzTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/7.1/dependencies-accessors/dependencies-accessors.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.1/dependencies-accessors/dependencies-accessors.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HelloWorld/.gradle/7.1/dependencies-accessors/dependencies-accessors.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HelloWorld/.gradle/7.1/dependencies-accessors/gc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HelloWorld/.gradle/7.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HelloWorld/.gradle/7.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HelloWorld/.gradle/7.1/fileChanges/last-build.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HelloWorld/.gradle/7.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HelloWorld/.gradle/7.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HelloWorld/.gradle/7.1/gc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HelloWorld/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HelloWorld/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HelloWorld/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HelloWorld/.gradle/checksums/checksums.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HelloWorld/.gradle/vcs-1/gc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HelloWorld/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HelloWorld/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HelloWorld/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HelloWorld/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HelloWorld/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HelloWorld/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HelloWorld/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HelloWorld/build/classes/java/main/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HelloWorld/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HelloWorld/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HelloWorld/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HelloWorld/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HelloWorld/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HelloWorld/src/main/java/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HelloWorld/src/main/java/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.1/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.1/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.1/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/checksums/md5-checksums.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradlew.bat" beforeDir="false" afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/FizzBuzz.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/FizzBuzz.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/docs/javadoc/FizzBuzz.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/docs/javadoc/allclasses-index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/docs/javadoc/allpackages-index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/docs/javadoc/element-list" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/docs/javadoc/help-doc.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/docs/javadoc/index-all.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/docs/javadoc/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/docs/javadoc/jquery-ui.overrides.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/docs/javadoc/member-search-index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/docs/javadoc/module-search-index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/docs/javadoc/overview-tree.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/docs/javadoc/package-search-index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/docs/javadoc/package-summary.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/docs/javadoc/package-tree.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/docs/javadoc/resources/glass.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/docs/javadoc/resources/x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/docs/javadoc/script-dir/images/ui-bg_glass_55_fbf9ee_1x400.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/docs/javadoc/script-dir/images/ui-bg_glass_65_dadada_1x400.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/docs/javadoc/script-dir/images/ui-bg_glass_75_dadada_1x400.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/docs/javadoc/script-dir/images/ui-bg_glass_75_e6e6e6_1x400.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/docs/javadoc/script-dir/images/ui-bg_glass_95_fef1ec_1x400.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/docs/javadoc/script-dir/images/ui-bg_highlight-soft_75_cccccc_1x100.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/docs/javadoc/script-dir/images/ui-icons_222222_256x240.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/docs/javadoc/script-dir/images/ui-icons_2e83ff_256x240.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/docs/javadoc/script-dir/images/ui-icons_454545_256x240.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/docs/javadoc/script-dir/images/ui-icons_888888_256x240.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/docs/javadoc/script-dir/images/ui-icons_cd0a0a_256x240.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/docs/javadoc/script-dir/jquery-3.5.1.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/docs/javadoc/script-dir/jquery-ui.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/docs/javadoc/script-dir/jquery-ui.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/docs/javadoc/script-dir/jquery-ui.structure.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/docs/javadoc/script.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/docs/javadoc/search.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/docs/javadoc/stylesheet.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/docs/javadoc/tag-search-index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/docs/javadoc/type-search-index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/FizzBuzz.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Fizzbuzz.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/FizzBuzzTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/FizzbuzzTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,12 +113,6 @@
                 <item name="FizzBuzz" type="f1a62948:ProjectNode" />
                 <item name="Tasks" type="e4a08cd1:TasksNode" />
               </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="FizzBuzz" type="f1a62948:ProjectNode" />
-                <item name="Tasks" type="e4a08cd1:TasksNode" />
-                <item name="documentation" type="c8890929:TasksNode$1" />
-              </path>
             </expand>
             <select />
           </tree_state>
@@ -78,15 +134,20 @@
     <setting file="file://$PROJECT_DIR$/build.gradle" root0="SKIP_INSPECTION" />
   </component>
   <component name="ProjectId" id="1x87JHZ0vVpv8AJZQUchMsNHt43" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="project.propCompiler" />
   </component>
   <component name="RunAnythingCache">
     <option name="myCommands">
@@ -94,57 +155,16 @@
       <command value="gradle --warning-mode" />
       <command value="gradle --warning-mode=all" />
       <command value="gradle tasks" />
+      <command value="gradle --info" />
     </option>
   </component>
-  <component name="RunManager" selected="Gradle.FizzBuzzTest">
-    <configuration name="FizzBuzz [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value="build" />
-          </list>
-        </option>
-        <option name="vmOptions" value="" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="FizzBuzz [tasks]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value="tasks" />
-          </list>
-        </option>
-        <option name="vmOptions" value="" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Gradle.FizzbuzzTest">
     <configuration name="FizzBuzz" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--warning-mode all" />
+        <option name="scriptParameters" value="--info" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -158,12 +178,12 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="FizzBuzzTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="FizzbuzzTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;FizzBuzzTest&quot;" />
+        <option name="scriptParameters" value="--tests &quot;FizzbuzzTest&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -179,12 +199,54 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="FizzBuzzTest.testGenerateListsNumbersUpToOne" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="FizzbuzzTest.testGenerateListsNumbersUpToOne" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;FizzBuzzTest.testGenerateListsNumbersUpToOne&quot;" />
+        <option name="scriptParameters" value="--tests &quot;FizzbuzzTest.testGenerateListsNumbersUpToOne&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="FizzbuzzTest.testGenerateListsNumbersUpToThree" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;FizzbuzzTest.testGenerateListsNumbersUpToThree&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="FizzbuzzTest.testGenerateListsNumbersUpToTwo" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;FizzbuzzTest.testGenerateListsNumbersUpToTwo&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -202,11 +264,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.FizzBuzzTest" />
-        <item itemvalue="Gradle.FizzBuzzTest.testGenerateListsNumbersUpToOne" />
-        <item itemvalue="Gradle.FizzBuzz [tasks]" />
+        <item itemvalue="Gradle.FizzbuzzTest" />
+        <item itemvalue="Gradle.FizzbuzzTest.testGenerateListsNumbersUpToOne" />
+        <item itemvalue="Gradle.FizzbuzzTest.testGenerateListsNumbersUpToTwo" />
+        <item itemvalue="Gradle.FizzbuzzTest.testGenerateListsNumbersUpToThree" />
         <item itemvalue="Gradle.FizzBuzz" />
-        <item itemvalue="Gradle.FizzBuzz [build]" />
       </list>
     </recent_temporary>
   </component>
@@ -231,5 +293,12 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/FizzBuzz$FizzbuzzTest_testGenerateListsNumbersUpToThree.ic" NAME="FizzbuzzTest.testGenerateListsNumbersUpToThree Coverage Results" MODIFIED="1629751828322" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>
