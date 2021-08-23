@@ -1,0 +1,7 @@
+-classpath '/Users/kingdodo/Projects/My_Portfolio/JavaCourse/FizzBuzz/build/classes/java/main:/Users/kingdodo/Projects/My_Portfolio/JavaCourse/FizzBuzz/build/resources/main'
+-d '/Users/kingdodo/Projects/My_Portfolio/JavaCourse/FizzBuzz/build/docs/javadoc'
+-doctitle 'FizzBuzz 1.0-SNAPSHOT API'
+-notimestamp 
+-quiet 
+-windowtitle 'FizzBuzz 1.0-SNAPSHOT API'
+'/Users/kingdodo/Projects/My_Portfolio/JavaCourse/FizzBuzz/src/main/java/FizzBuzz.java'
