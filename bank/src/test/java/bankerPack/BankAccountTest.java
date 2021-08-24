@@ -28,6 +28,7 @@ public class BankAccountTest {
         assertEquals("date: 24-08-2021 deposit: 100$\n", result);
     }
 
+
     @Test
     void testPrintStatementZeroTransactions() {
         BankAccount account1 = new BankAccount("Kumbajan Aubergino");
