@@ -21,10 +21,18 @@ public class BankAccountTest {
     }
 
     @Test
-    void testPrintStatementNoTransactions() {
+    void testShowTransactions() {
+        BankAccount account1 = new BankAccount("Kumbajan Aubergino");
+        account1.deposit(100);
+        String result = account1.showTransactions();
+        assertEquals("date: 24-08-2021 deposit: 100$", result);
+    }
+
+    @Test
+    void testPrintStatementZeroTransactions() {
         BankAccount account1 = new BankAccount("Kumbajan Aubergino");
         String result = account1.printStatement();
-        assertEquals("Account Holder: Kumbajan Aubergino\ndate| deposit | balance", result);
+        assertEquals("Account Holder: Kumbajan Aubergino\ndate| deposit | withdrawal | balance", result);
     }
 
 }
