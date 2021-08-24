@@ -16,4 +16,8 @@ public class BankAccount {
         return balance;
     }
 
+    public String printStatement () {
+        return "Account Holder: Kumbajan Aubergino\ndate| deposit | balance";
+    }
+
 }
