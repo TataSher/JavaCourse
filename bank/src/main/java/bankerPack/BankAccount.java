@@ -26,13 +26,13 @@ public class BankAccount {
     }
 
     public String showTransactions () {
-        System.out.println("TRANSACTIONS" + transactions);
-        Transaction transaction1= (Transaction) transactions.get(0);
+        String output = "";
+        for (int i=0; i<transactions.size(); i++) {
 
-        System.out.println(transaction1.showDate());
-        System.out.println(transaction1.showAmount());
-
-        return "date: " + transaction1.showDate() + " deposit: "+ transaction1.showAmount() +"$";
+            Transaction transaction = (Transaction) transactions.get(i);
+            output += "date: " + transaction.showDate() + " deposit: "+ transaction.showAmount() +"$\n";
+        }
+        return output;
     }
 
     public String printStatement () {

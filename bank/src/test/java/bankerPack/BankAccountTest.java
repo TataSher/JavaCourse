@@ -25,7 +25,7 @@ public class BankAccountTest {
         BankAccount account1 = new BankAccount("Kumbajan Aubergino");
         account1.deposit(100);
         String result = account1.showTransactions();
-        assertEquals("date: 24-08-2021 deposit: 100$", result);
+        assertEquals("date: 24-08-2021 deposit: 100$\n", result);
     }
 
     @Test

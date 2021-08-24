@@ -13,6 +13,7 @@
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/main/bankerPack/BankAccount.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/bankerPack/BankAccount.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/bankerPack/BankAccountTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/bankerPack/BankAccountTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/bankerPack.BankAccountTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/bankerPack.BankAccountTest.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/bankerPack.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/packages/bankerPack.html" afterDir="false" />
@@ -21,7 +22,9 @@
       <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileTestJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileTestJava/previous-compilation-data.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/bankerPack/BankAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bankerPack/BankAccount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/bankerPack/BankAccountTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/bankerPack/BankAccountTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
