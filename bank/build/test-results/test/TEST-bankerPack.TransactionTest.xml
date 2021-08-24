@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="bankerPack.TransactionTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2021-08-24T15:25:38" hostname="MacBook-Air-KingDodo.local" time="0.07">
-  <properties/>
-  <testcase name="testTransactionWithDate()" classname="bankerPack.TransactionTest" time="0.067"/>
-  <testcase name="testCreateTransaction()" classname="bankerPack.TransactionTest" time="0.001"/>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>
