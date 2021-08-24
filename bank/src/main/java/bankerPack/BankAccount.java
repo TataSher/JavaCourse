@@ -5,12 +5,12 @@ import java.util.ArrayList;
 public class BankAccount {
     private String name;
     private Integer balance;
-    private ArrayList deposits = new ArrayList();
+    private ArrayList transactions = new ArrayList();
 
     public BankAccount (String name) {
         this.name = name;
         this.balance = 0;
-        this.deposits = deposits;
+        this.transactions = transactions;
     }
 
     public String showName () {
@@ -22,15 +22,21 @@ public class BankAccount {
 
     public void deposit (Integer amount) {
       Transaction transaction = new Transaction(amount);
-        deposits.add(transaction);
+        transactions.add(transaction);
+    }
+
+    public void withdrawal (Integer amount) {
+        Transaction transaction = new Transaction(amount);
+        transactions.add(transaction);
     }
 
     public String showTransactions () {
         String output = "";
-        for (int i=0; i<deposits.size(); i++) {
+        for (int i=0; i<transactions.size(); i++) {
 
-            Transaction transaction = (Transaction) deposits.get(i);
-            output += "date: " + transaction.showDate() + " deposit: "+ transaction.showAmount() +"$\n";
+            Transaction transaction = (Transaction) transactions.get(i);
+
+            output += "date: " + transaction.showDate() + " "  + transaction.getKind() + ": "+ transaction.showAmount() +"$\n";
         }
         return output;
     }
