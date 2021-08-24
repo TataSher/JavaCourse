@@ -26,7 +26,13 @@ public class BankAccount {
     }
 
     public String showTransactions () {
-        return "date: 24-08-2021 deposit: 100$";
+        System.out.println("TRANSACTIONS" + transactions);
+        Transaction transaction1= (Transaction) transactions.get(0);
+
+        System.out.println(transaction1.showDate());
+        System.out.println(transaction1.showAmount());
+
+        return "date: " + transaction1.showDate() + " deposit: "+ transaction1.showAmount() +"$";
     }
 
     public String printStatement () {
