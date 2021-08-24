@@ -1,17 +1,22 @@
 package bankerPack;
 
+import java.time.LocalDate;
+import java.time.format.DateTimeFormatter;
+
 public class Transaction {
     private Integer amount;
-    private String date;
+    private LocalDate date = LocalDate.now();
+
 
     public Transaction(Integer amount) {
         this.amount = amount;
-        this.date = "24-08-2021";
+        this.date = date;
     }
     public Integer showAmount() {
         return amount;
     }
     public String showDate() {
-        return date;
+        DateTimeFormatter formatter = DateTimeFormatter.ofPattern("dd-MM-yyyy");
+        return date.format(formatter);
     }
 }
