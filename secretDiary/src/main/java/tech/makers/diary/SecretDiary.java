@@ -17,9 +17,9 @@ public class SecretDiary {
         locked = true;
     }
 
-    public String read() {
+    public int read() {
         if(locked) {
-            return "Go Away!";
+            return -1;
         } else {
             return diary.read();
         }

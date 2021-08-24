@@ -1,13 +1,13 @@
 package tech.makers.diary;
 
 public class Diary {
-    private String contents;
+    private int contents;
 
-    public Diary(String contents) {
+    public Diary(int contents) {
         this.contents = contents;
     }
 
-    public String read() {
+    public int read() {
         return contents;
     }
 }
