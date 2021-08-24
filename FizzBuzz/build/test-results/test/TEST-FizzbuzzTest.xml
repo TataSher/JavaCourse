@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="FizzbuzzTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2021-08-23T22:28:44" hostname="MacBook-Air-KingDodo.local" time="0.025">
+<testsuite name="FizzbuzzTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2021-08-24T10:38:17" hostname="MacBook-Air-KingDodo.local" time="0.024">
   <properties/>
-  <testcase name="testGenerateListsNumbersUpToFifteen()" classname="FizzbuzzTest" time="0.017"/>
-  <testcase name="testGenerateListsNumbersUpToThree()" classname="FizzbuzzTest" time="0.001"/>
-  <testcase name="testGenerateListsNumbersUpToFive()" classname="FizzbuzzTest" time="0.001"/>
+  <testcase name="testGenerateListsNumbersUpToFifteen()" classname="FizzbuzzTest" time="0.018"/>
+  <testcase name="testGenerateListsNumbersUpToThree()" classname="FizzbuzzTest" time="0.0"/>
+  <testcase name="testGenerateListsNumbersUpToFive()" classname="FizzbuzzTest" time="0.0"/>
   <testcase name="testGenerateListsNumbersUpToOne()" classname="FizzbuzzTest" time="0.001"/>
-  <testcase name="testGenerateListsNumbersUpToTwo()" classname="FizzbuzzTest" time="0.001"/>
+  <testcase name="testGenerateListsNumbersUpToTwo()" classname="FizzbuzzTest" time="0.0"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

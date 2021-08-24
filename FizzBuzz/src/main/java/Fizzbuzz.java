@@ -1,11 +1,9 @@
-import java.util.Arrays;
 
 public class Fizzbuzz {
 
     public String generate(Integer upto) {
         String[] numbers = new String[upto];
         for (int i = 0; i < upto; ++i) {
-            String number = numbers[i];
             if ( (i+1) % 3 == 0  && (i+1) % 5 == 0) {
                 numbers[i] = "FizzBuzz";
             } else if ( (i+1) % 3 == 0) {
