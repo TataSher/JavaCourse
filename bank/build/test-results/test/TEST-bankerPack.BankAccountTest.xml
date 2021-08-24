@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="bankerPack.BankAccountTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2021-08-24T16:45:23" hostname="MacBook-Air-KingDodo.local" time="0.068">
+<testsuite name="bankerPack.BankAccountTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2021-08-24T16:49:53" hostname="MacBook-Air-KingDodo.local" time="0.077">
   <properties/>
   <testcase name="testCreateBankAccountWithName()" classname="bankerPack.BankAccountTest" time="0.057"/>
-  <testcase name="testCreateBankAccountWithBalance()" classname="bankerPack.BankAccountTest" time="0.004"/>
-  <testcase name="testPrintStatementNoTransactions()" classname="bankerPack.BankAccountTest" time="0.0"/>
+  <testcase name="testCreateBankAccountWithBalance()" classname="bankerPack.BankAccountTest" time="0.002"/>
+  <testcase name="testPrintStatementNoTransactions()" classname="bankerPack.BankAccountTest" time="0.012"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

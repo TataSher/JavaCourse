@@ -17,7 +17,7 @@ public class BankAccount {
     }
 
     public String printStatement () {
-        return "Account Holder: Kumbajan Aubergino\ndate| deposit | balance";
+        return "Account Holder: " + name +"\ndate| deposit | balance";
     }
 
 }
