@@ -44,7 +44,7 @@ public class BankAccountTest {
     void testPrintStatementZeroTransactions() {
         BankAccount account1 = new BankAccount("Kumbajan Aubergino");
         String result = account1.printStatement();
-        assertEquals("Account Holder: Kumbajan Aubergino\ndate| deposit | withdrawal | balance", result);
+        assertEquals("Account Holder: Kumbajan Aubergino\ndate| deposit | withdrawal | balance\n", result);
     }
 
 }

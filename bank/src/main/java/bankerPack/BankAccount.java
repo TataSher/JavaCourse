@@ -31,7 +31,8 @@ public class BankAccount {
     }
 
     public String printStatement () {
-        return "Account Holder: " + name +"\ndate| deposit | withdrawal | balance";
+        Statement statement = new Statement(this);
+        return statement.print();
     }
 
 }
