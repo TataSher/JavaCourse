@@ -28,6 +28,7 @@ public class Statement {
         for (int i = 0; i < transactions.size(); i++) {
 
             Transaction transaction = (Transaction) transactions.get(i);
+            System.out.println("TRANSACTION" + transaction + transactions);
             account.addBalance(transaction.showAmount());
 
             output += transaction.showDate() + " | " + depositOrWithdrawal(transaction) + account.showBalance() + "\n";

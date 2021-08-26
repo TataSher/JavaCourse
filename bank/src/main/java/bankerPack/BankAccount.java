@@ -3,7 +3,7 @@ package bankerPack;
 import java.util.ArrayList;
 
 public class BankAccount {
-    private Integer balance = 0;
+    private int balance = 0;
     private String name ;
     private ArrayList transactions = new ArrayList();
 
@@ -14,33 +14,34 @@ public class BankAccount {
         this.balance = balance;
     }
     ArrayList showTransactions () { return transactions; }
-    Integer showBalance () {
+    int showBalance () {
         return balance;
     }
     String showName () {
         return name;
     }
 
-    void deposit (Integer amount) {
+    void deposit (int amount) {
       Transaction transaction = new Transaction(amount);
         transactions.add(transaction);
     }
 
-    void withdrawal (Integer amount) {
-        Transaction transaction = new Transaction(amount);
+    void withdrawal (int amount) {
+        Transaction transaction = new Transaction(-Math.abs(amount));
         transactions.add(transaction);
     }
+
 
     public String printStatement () {
         Statement statement = new Statement(this);
         return statement.print();
     }
 
-    public void addBalance(Integer amount) {
+    public void addBalance(int amount) {
         balance += amount;
     }
 
-    public Integer showFinalBalance() {
+    public int showFinalBalance() {
         return balance;
     }
 

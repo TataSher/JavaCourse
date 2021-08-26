@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="bankerPack.BankAccountTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-08-26T20:28:27" hostname="MacBook-Air-KingDodo.local" time="0.046">
+<testsuite name="bankerPack.BankAccountTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-08-26T21:09:47" hostname="MacBook-Air-KingDodo.local" time="0.054">
   <properties/>
-  <testcase name="testPrintStatementWithOneTransaction()" classname="bankerPack.BankAccountTest" time="0.046"/>
-  <system-out><![CDATA[]]></system-out>
+  <testcase name="testPrintStatementWithTwoTransactions()" classname="bankerPack.BankAccountTest" time="0.054"/>
+  <system-out><![CDATA[TRANSACTIONbankerPack.Transaction@3cd80d86[bankerPack.Transaction@3cd80d86, bankerPack.Transaction@15d63a8a]
+TRANSACTIONbankerPack.Transaction@15d63a8a[bankerPack.Transaction@3cd80d86, bankerPack.Transaction@15d63a8a]
+]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
