@@ -30,21 +30,13 @@ public class BankAccountTest {
 //        assertEquals([transaction1], result);
 //    }
 
-//    @Test
-//    void testShowTransactionsWithDepositAndWithdrawal() {
-//        BankAccount account1 = new BankAccount("Kumbajan Aubergino");
-//        account1.deposit(100);
-//        account1.withdrawal(-10);
-//        String result = account1.showTransactions();
-//        assertEquals("date: 26-08-2021 deposit: 100$\ndate: 26-08-2021 withdrawal: -10$\n", result);
-//    }
-
 
     @Test
-    void testPrintStatementZeroTransactions() {
+    void testPrintStatementWithOneTransaction() {
         BankAccount account1 = new BankAccount("Kumbajan Aubergino");
+        account1.deposit(100);
         String result = account1.printStatement();
-        assertEquals("Account Holder: Kumbajan Aubergino\ndate| deposit | withdrawal | balance\n", result);
+        assertEquals("Account Holder: Kumbajan Aubergino\ndate| deposit | withdrawal | balance\n26-08-2021 | 100 | - | 100\n", result);
     }
 
 }
