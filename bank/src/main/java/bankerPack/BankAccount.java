@@ -3,14 +3,15 @@ package bankerPack;
 import java.util.ArrayList;
 
 public class BankAccount {
+    private Integer balance = 0;
     private String name ;
-    private Integer balance;
     private ArrayList transactions = new ArrayList();
 
     public BankAccount (String name) {
         this.name = name;
         this.balance = 0;
         this.transactions = transactions;
+        this.balance = balance;
     }
     ArrayList showTransactions () { return transactions; }
     Integer showBalance () {
@@ -33,6 +34,14 @@ public class BankAccount {
     public String printStatement () {
         Statement statement = new Statement(this);
         return statement.print();
+    }
+
+    public void addBalance(Integer amount) {
+        balance += amount;
+    }
+
+    public Integer showFinalBalance() {
+        return balance;
     }
 
 }
