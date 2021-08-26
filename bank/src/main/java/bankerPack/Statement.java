@@ -13,6 +13,10 @@ public class Statement {
         this.balance = balance;
     }
     String print() {
+        return printHead();
+    }
+
+    private String printHead() {
         return "Account Holder: " + name + "\ndate| deposit | withdrawal | balance";
     }
 }
