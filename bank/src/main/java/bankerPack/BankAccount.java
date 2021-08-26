@@ -12,33 +12,22 @@ public class BankAccount {
         this.balance = 0;
         this.transactions = transactions;
     }
-
-    public String showName () {
-        return name;
-    }
-    public Integer showBalance () {
+    ArrayList showTransactions () { return transactions; }
+    Integer showBalance () {
         return balance;
     }
+    String showName () {
+        return name;
+    }
 
-    public void deposit (Integer amount) {
+    void deposit (Integer amount) {
       Transaction transaction = new Transaction(amount);
         transactions.add(transaction);
     }
 
-    public void withdrawal (Integer amount) {
+    void withdrawal (Integer amount) {
         Transaction transaction = new Transaction(amount);
         transactions.add(transaction);
-    }
-
-    public String showTransactions () {
-        String output = "";
-        for (int i=0; i<transactions.size(); i++) {
-
-            Transaction transaction = (Transaction) transactions.get(i);
-
-            output += "date: " + transaction.showDate() + " "  + transaction.getKind() + ": "+ transaction.showAmount() +"$\n";
-        }
-        return output;
     }
 
     public String printStatement () {

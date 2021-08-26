@@ -8,12 +8,12 @@ public class Statement {
     private Integer balance;
 
     public Statement (BankAccount bankAccount ) {
-        this.name = name;
-        this.transactions = transactions;
+        this.name = bankAccount.showName();
+        this.transactions = bankAccount.showTransactions();
         this.balance = balance;
     }
     String print() {
-        return "Account Holder: Kuma Bear\ndate| deposit | withdrawal | balance";
+        return "Account Holder: " + name + "\ndate| deposit | withdrawal | balance";
     }
 }
 

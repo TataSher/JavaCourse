@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="bankerPack.StatementTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-08-26T16:26:56" hostname="MacBook-Air-KingDodo.local" time="0.056">
+<testsuite name="bankerPack.StatementTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-08-26T16:43:12" hostname="MacBook-Air-KingDodo.local" time="0.057">
   <properties/>
-  <testcase name="Prints first line of statement when no previous transactions took place" classname="bankerPack.StatementTest" time="0.056"/>
+  <testcase name="Prints first line of statement when no previous transactions took place" classname="bankerPack.StatementTest" time="0.057"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
