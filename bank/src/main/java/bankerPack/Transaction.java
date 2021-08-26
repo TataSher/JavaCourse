@@ -10,7 +10,6 @@ public class Transaction {
 
     public Transaction(Integer amount) {
         this.amount = amount;
-        this.date = date;
     }
     public Integer showAmount() {
         return amount;

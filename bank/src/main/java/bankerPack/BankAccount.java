@@ -3,7 +3,7 @@ package bankerPack;
 import java.util.ArrayList;
 
 public class BankAccount {
-    private String name;
+    private String name ;
     private Integer balance;
     private ArrayList transactions = new ArrayList();
 
