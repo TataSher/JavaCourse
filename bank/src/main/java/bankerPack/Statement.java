@@ -13,21 +13,31 @@ public class Statement {
         this.balance = balance;
     }
     String print() {
-        return printHead();
+        return printHead() + printTransactions();
     }
 
     private String printHead() {
-        return "Account Holder: " + name + "\ndate| deposit | withdrawal | balance";
+        return "Account Holder: " + name + "\ndate| deposit | withdrawal | balance\n";
+
+    }
+
+    private String printTransactions() {
+        String output = "";
+        for (int i = 0; i < transactions.size(); i++) {
+
+            Transaction transaction = (Transaction) transactions.get(i);
+
+            output +=  transaction.showDate() + " | " + depositOrWithdrawal(transaction) +"100" + "\n";
+        }
+        return output;
+    }
+    private String depositOrWithdrawal(Transaction transaction) {
+        if (transaction.getKind() == "deposit") {
+            return transaction.showAmount() + " | - | ";
+        } else if (transaction.getKind() == "withdrawal") {
+            return "- | " + transaction.showAmount() +" | ";
+        }
+        return null;
     }
 }
 
-//    public String showTransactions () {
-//        String output = "";
-//        for (int i=0; i<transactions.size(); i++) {
-//
-//            Transaction transaction = (Transaction) transactions.get(i);
-//
-//            output += "date: " + transaction.showDate() + " "  + transaction.getKind() + ": "+ transaction.showAmount() +"$\n";
-//        }
-//        return output;
-//    }
