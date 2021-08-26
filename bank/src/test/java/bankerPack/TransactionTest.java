@@ -19,11 +19,4 @@ public class TransactionTest {
         assertEquals("26-08-2021", result);
     }
 
-    @Test
-    void testTransactionBalance() {
-        Transaction deposit2 = new Transaction(200);
-        deposit2.addBalance(200);
-        Integer result = deposit2.showBalance();
-        assertEquals(200, result);
-    }
 }

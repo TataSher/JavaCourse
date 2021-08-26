@@ -7,7 +7,6 @@ public class Transaction {
     private Integer amount;
     private LocalDate date = LocalDate.now();
     private String kind;
-    private Integer balance = 0;
 
     public Transaction(Integer amount) {
         this.amount = amount;
@@ -30,12 +29,5 @@ public class Transaction {
         return date.format(formatter);
     }
 
-    public void addBalance(Integer balanceSum) {
-        balance += balanceSum;
-    }
-
-    public Integer showBalance() {
-        return balance;
-    }
 
 }
