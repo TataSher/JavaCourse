@@ -32,7 +32,6 @@ public class Statement {
         for (int i = 0; i < transactions.size(); i++) {
 
             Transaction transaction = (Transaction) transactions.get(i);
-
             String printBalance = String.format("%.02f", statementBalance);
 
             output += transaction.getPrintDate() + " || " + depositOrWithdrawal(transaction) + printBalance + "\n";
