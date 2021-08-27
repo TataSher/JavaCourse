@@ -39,7 +39,6 @@ public class BankAccountTest {
         Assertions.assertThrows(ArithmeticException.class, () -> account1.withdrawal(20));
     }
 
-
     @Test
     void testPrintStatementWithOneTransaction() {
         account1.deposit(100);

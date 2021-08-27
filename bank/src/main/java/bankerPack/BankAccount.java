@@ -27,6 +27,7 @@ public class BankAccount {
         if (balance <= amount) {
             throw new ArithmeticException("Insufficient Funds");
         }
+
         Transaction transaction = new Transaction(-Math.abs(amount));
         transactions.add(transaction);
         setBalance(transaction.getAmount());
