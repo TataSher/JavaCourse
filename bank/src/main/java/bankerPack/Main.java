@@ -1,16 +1,17 @@
 package bankerPack;
 
+import java.time.LocalDate;
+
 public class Main {
-    public static void main(String args[]) {
-        BankAccount bankAccount = new BankAccount("Nata");
+    public static void main(String[] args) {
+        BankAccount account1 = new BankAccount("Nata");
 
-        bankAccount.deposit(1000);
+        account1.deposit(1000, LocalDate.of(2021, 1, 10));
 
-        bankAccount.deposit(2000);
+        account1.deposit(2000, LocalDate.of(2021, 1, 13));
 
-        bankAccount.withdrawal(500);
+        account1.withdraw(500, LocalDate.of(2021, 1, 14));
 
-        // When she prints her bank statement
-        System.out.println(bankAccount.generateStatement());
+        System.out.println(account1.generateStatement());
     }
 }

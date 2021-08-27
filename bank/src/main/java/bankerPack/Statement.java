@@ -29,7 +29,6 @@ public class Statement {
         for (int i = 0; i < transactions.size(); i++) {
 
             Transaction transaction = (Transaction) transactions.get(i);
-            System.out.println("TRANSACTION" + transaction + transactions);
             statementBalance += transaction.getAmount();
             String printBalance = String.format("%.02f", statementBalance);
 

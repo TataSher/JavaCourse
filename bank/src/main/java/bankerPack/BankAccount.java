@@ -1,5 +1,6 @@
 package bankerPack;
 
+import java.time.LocalDate;
 import java.util.ArrayList;
 
 public class BankAccount {
@@ -15,9 +16,9 @@ public class BankAccount {
 
     String getName () { return name; }
 
-    void deposit (float amount) {
+    void deposit (float amount, LocalDate of) {
         positiveAmount(amount);
-        Transaction transaction = new Transaction(amount);
+        Transaction transaction = new Transaction(amount, of);
         transactions.add(transaction);
         setBalance(transaction.getAmount());
     }
@@ -28,9 +29,9 @@ public class BankAccount {
          }
     }
 
-    void withdrawal (float amount) {
+    void withdraw(float amount, LocalDate of) {
         insufficientFunds(amount);
-        Transaction transaction = new Transaction(-Math.abs(amount));
+        Transaction transaction = new Transaction(-Math.abs(amount), of);
         transactions.add(transaction);
         setBalance(transaction.getAmount());
     }

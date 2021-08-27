@@ -5,11 +5,12 @@ import java.time.format.DateTimeFormatter;
 
 public class Transaction {
     private float amount;
-    private LocalDate date = LocalDate.now();
+    private LocalDate date;
     private String kind;
 
-    public Transaction(float amount) {
+    public Transaction(float amount, LocalDate of) {
         this.amount = amount;
+        this.date = of;
     }
     public float getAmount() {
         return amount;
@@ -25,7 +26,7 @@ public class Transaction {
     }
 
     public String getDate() {
-        DateTimeFormatter formatter = DateTimeFormatter.ofPattern("dd-MM-yyyy");
+        DateTimeFormatter formatter = DateTimeFormatter.ofPattern("dd/MM/yyyy");
         return date.format(formatter);
     }
 
