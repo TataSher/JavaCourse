@@ -25,9 +25,13 @@ public class Transaction {
         return kind;
     }
 
-    public String getDate() {
+    public String getPrintDate() {
         DateTimeFormatter formatter = DateTimeFormatter.ofPattern("dd/MM/yyyy");
         return date.format(formatter);
+    }
+
+    public LocalDate getDate() {
+        return date;
     }
 
 

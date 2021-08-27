@@ -1,11 +1,13 @@
 package bankerPack;
 
+import java.time.LocalDate;
 import java.util.ArrayList;
 
 public class Statement {
     private String name;
     private ArrayList transactions = new ArrayList();
     private BankAccount account;
+    private LocalDate transactionDate;
 
 
     public Statement (BankAccount bankAccount ) {
@@ -24,15 +26,17 @@ public class Statement {
     }
 
     private String printTransactions() {
+        latestTransactionsFirst();
         String output = "";
-        float statementBalance = 0;
+        float statementBalance = account.getBalance();
         for (int i = 0; i < transactions.size(); i++) {
 
             Transaction transaction = (Transaction) transactions.get(i);
-            statementBalance += transaction.getAmount();
+
             String printBalance = String.format("%.02f", statementBalance);
 
-            output += transaction.getDate() + " || " + depositOrWithdrawal(transaction) + printBalance + "\n";
+            output += transaction.getPrintDate() + " || " + depositOrWithdrawal(transaction) + printBalance + "\n";
+            statementBalance -= transaction.getAmount();
         }
         return output;
     }
@@ -45,6 +49,10 @@ public class Statement {
             return "- || " + printAmount + " || ";
         }
         return null;
+    }
+
+    private void latestTransactionsFirst () {
+        transactions.sort(new DateSorter());
     }
 
 }
