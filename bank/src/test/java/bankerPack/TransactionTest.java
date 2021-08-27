@@ -15,7 +15,7 @@ public class TransactionTest {
     @Test
     void testTransactionWithDate() {
         Transaction deposit2 = new Transaction(200);
-        String result = deposit2.showDate();
+        String result = deposit2.getDate();
         assertEquals("27-08-2021", result);
     }
 

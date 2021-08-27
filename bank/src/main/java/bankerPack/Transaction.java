@@ -24,7 +24,7 @@ public class Transaction {
         return kind;
     }
 
-    public String showDate() {
+    public String getDate() {
         DateTimeFormatter formatter = DateTimeFormatter.ofPattern("dd-MM-yyyy");
         return date.format(formatter);
     }

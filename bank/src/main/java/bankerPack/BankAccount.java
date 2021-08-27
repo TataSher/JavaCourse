@@ -13,7 +13,7 @@ public class BankAccount {
         this.transactions = transactions;
         this.balance = balance;
     }
-    ArrayList showTransactions () { return transactions; }
+    ArrayList getTransactions () { return transactions; }
     int showBalance () {
         return balance;
     }
@@ -24,13 +24,13 @@ public class BankAccount {
     void deposit (int amount) {
       Transaction transaction = new Transaction(amount);
         transactions.add(transaction);
-        addBalance(transaction.showAmount());
+        setBalance(transaction.showAmount());
     }
 
     void withdrawal (int amount) {
         Transaction transaction = new Transaction(-Math.abs(amount));
         transactions.add(transaction);
-        addBalance(transaction.showAmount());
+        setBalance(transaction.showAmount());
     }
 
 
@@ -39,11 +39,11 @@ public class BankAccount {
         return statement.print();
     }
 
-    public void addBalance(int amount) {
+    public void setBalance(int amount) {
         balance += amount;
     }
 
-    public int showFinalBalance() {
+    public int getBalance() {
         return balance;
     }
 

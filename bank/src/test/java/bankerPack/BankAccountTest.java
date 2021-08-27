@@ -20,13 +20,22 @@ public class BankAccountTest {
         assertEquals(0, result);
     }
 
-//    @Test
-//    void testShowTransactionsWithOneDeposit() {
-//        BankAccount account1 = new BankAccount("Kumbajan Aubergino");
-//        account1.deposit(100);
-//        ArrayList result = account1.showTransactions();
-//        assertEquals([transaction1], result);
-//    }
+    @Test
+    void testShowTransactionsWithOneDeposit() {
+        BankAccount account1 = new BankAccount("Kumbajan Aubergino");
+        account1.deposit(100);
+        int result = account1.getBalance();
+        assertEquals(100, result);
+    }
+
+    @Test
+    void testShowTransactionsWithDepositAndWithdrawal() {
+        BankAccount account1 = new BankAccount("Kumbajan Aubergino");
+        account1.deposit(100);
+        account1.withdrawal(20);
+        int result = account1.getBalance();
+        assertEquals(80, result);
+    }
 
 
     @Test
@@ -47,11 +56,11 @@ public class BankAccountTest {
     }
 
     @Test
-    void testShowFinalBalance() {
+    void testGetFinalBalance() {
         BankAccount account1 = new BankAccount("Kumbajan Aubergino");
         account1.deposit(100);
         account1.withdrawal(10);
-        int result = account1.showFinalBalance();
+        int result = account1.getBalance();
         assertEquals(90, result);
     }
 

@@ -10,7 +10,7 @@ public class Statement {
 
     public Statement (BankAccount bankAccount ) {
         this.name = bankAccount.showName();
-        this.transactions = bankAccount.showTransactions();
+        this.transactions = bankAccount.getTransactions();
         this.account = bankAccount;
     }
 
@@ -32,7 +32,7 @@ public class Statement {
             System.out.println("TRANSACTION" + transaction + transactions);
             printBalance += transaction.showAmount();
 
-            output += transaction.showDate() + " | " + depositOrWithdrawal(transaction) + printBalance + "\n";
+            output += transaction.getDate() + " | " + depositOrWithdrawal(transaction) + printBalance + "\n";
         }
         return output;
     }

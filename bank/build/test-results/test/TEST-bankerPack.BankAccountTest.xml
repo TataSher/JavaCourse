@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="bankerPack.BankAccountTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2021-08-27T10:11:18" hostname="MacBook-Air-KingDodo.local" time="0.186">
+<testsuite name="bankerPack.BankAccountTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-08-27T10:28:32" hostname="MacBook-Air-KingDodo.local" time="0.025">
   <properties/>
-  <testcase name="testCreateBankAccountWithName()" classname="bankerPack.BankAccountTest" time="0.059"/>
-  <testcase name="testCreateBankAccountWithBalance()" classname="bankerPack.BankAccountTest" time="0.001"/>
-  <testcase name="testShowFinalBalance()" classname="bankerPack.BankAccountTest" time="0.038"/>
-  <testcase name="testPrintStatementWithOneTransaction()" classname="bankerPack.BankAccountTest" time="0.066"/>
-  <testcase name="testPrintStatementWithTwoTransactions()" classname="bankerPack.BankAccountTest" time="0.006"/>
-  <system-out><![CDATA[TRANSACTIONbankerPack.Transaction@19b38f8[bankerPack.Transaction@19b38f8]
-TRANSACTIONbankerPack.Transaction@47d87644[bankerPack.Transaction@47d87644, bankerPack.Transaction@6a0b2de3]
-TRANSACTIONbankerPack.Transaction@6a0b2de3[bankerPack.Transaction@47d87644, bankerPack.Transaction@6a0b2de3]
-]]></system-out>
+  <testcase name="testShowTransactionsWithDepositAndWithdrawal()" classname="bankerPack.BankAccountTest" time="0.025"/>
+  <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
