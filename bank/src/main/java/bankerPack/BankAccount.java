@@ -10,8 +10,6 @@ public class BankAccount {
     public BankAccount (String name) {
         this.name = name;
         this.balance = 0;
-        this.transactions = transactions;
-        this.balance = balance;
     }
     ArrayList getTransactions () { return transactions; }
 
@@ -43,8 +41,7 @@ public class BankAccount {
         }
     }
 
-
-    public String printStatement () {
+    public String generateStatement () {
         Statement statement = new Statement(this);
         return statement.print();
     }
@@ -58,3 +55,4 @@ public class BankAccount {
     }
 
 }
+

@@ -5,7 +5,7 @@ import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class BankAccountTest {
-    private BankAccount account1 = new BankAccount("Kumbajan Aubergino");;
+    private BankAccount account1 = new BankAccount("Kumbajan Aubergino");
 
     @Test
     void testCreateBankAccountWithName() {
@@ -47,19 +47,17 @@ public class BankAccountTest {
     @Test
     void testPrintStatementWithOneTransaction() {
         account1.deposit(100);
-        String result = account1.printStatement();
-        assertEquals("Account Holder: Kumbajan Aubergino\ndate| deposit | withdrawal | balance\n27-08-2021 | 100.00 |" +
-                " - " +
-                "| 100.00\n", result);
+        String result = account1.generateStatement();
+        assertEquals("Account Holder: Kumbajan Aubergino\ndate || credit || debit || balance\n27-08-2021 || - || 100.00 || 100.00\n", result);
     }
 
     @Test
     void testPrintStatementWithTwoTransactions() {
         account1.deposit(100);
         account1.withdrawal(10);
-        String result = account1.printStatement();
-        assertEquals("Account Holder: Kumbajan Aubergino\ndate| deposit | withdrawal | balance\n27-08-2021 | 100.00 |" +
-                " - | 100.00\n27-08-2021 | - | -10.00 | 90.00\n", result);
+        String result = account1.generateStatement();
+        assertEquals("Account Holder: Kumbajan Aubergino\ndate || credit || debit || balance\n27-08-2021 || - || 100" +
+                ".00 || 100.00\n27-08-2021 || -10.00 || - || 90.00\n", result);
     }
 
     @Test

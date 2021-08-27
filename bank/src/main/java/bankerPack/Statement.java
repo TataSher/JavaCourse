@@ -19,7 +19,7 @@ public class Statement {
     }
 
     private String printHead() {
-        return "Account Holder: " + name + "\ndate| deposit | withdrawal | balance\n";
+        return "Account Holder: " + name + "\ndate || credit || debit || balance\n";
 
     }
 
@@ -33,7 +33,7 @@ public class Statement {
             statementBalance += transaction.getAmount();
             String printBalance = String.format("%.02f", statementBalance);
 
-            output += transaction.getDate() + " | " + depositOrWithdrawal(transaction) + printBalance + "\n";
+            output += transaction.getDate() + " || " + depositOrWithdrawal(transaction) + printBalance + "\n";
         }
         return output;
     }
@@ -41,9 +41,9 @@ public class Statement {
     private String depositOrWithdrawal(Transaction transaction) {
         String printAmount = String.format("%.02f", transaction.getAmount());
         if (transaction.getKind() == "deposit") {
-            return printAmount + " | - | ";
+            return "- || " + printAmount + " || ";
         } else if (transaction.getKind() == "withdrawal") {
-            return "- | " + printAmount + " | ";
+            return printAmount + " || - || ";
         }
         return null;
     }
