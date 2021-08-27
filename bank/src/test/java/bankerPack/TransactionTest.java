@@ -9,7 +9,7 @@ public class TransactionTest {
     @Test
     void testCreateTransaction() {
         Transaction deposit1 = new Transaction(100);
-        Integer result = deposit1.showAmount();
+        float result = deposit1.getAmount();
         assertEquals(100, result);
     }
     @Test

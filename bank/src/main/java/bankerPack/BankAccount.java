@@ -3,7 +3,7 @@ package bankerPack;
 import java.util.ArrayList;
 
 public class BankAccount {
-    private int balance = 0;
+    private float balance = 0;
     private String name ;
     private ArrayList transactions = new ArrayList();
 
@@ -14,23 +14,22 @@ public class BankAccount {
         this.balance = balance;
     }
     ArrayList getTransactions () { return transactions; }
-    int showBalance () {
-        return balance;
-    }
-    String showName () {
-        return name;
-    }
 
-    void deposit (int amount) {
-      Transaction transaction = new Transaction(amount);
+    String getName () { return name; }
+
+    void deposit (float amount) {
+        Transaction transaction = new Transaction(amount);
         transactions.add(transaction);
-        setBalance(transaction.showAmount());
+        setBalance(transaction.getAmount());
     }
 
-    void withdrawal (int amount) {
+    void withdrawal (float amount) {
+        if (balance <= amount) {
+            throw new ArithmeticException("Insufficient Funds");
+        }
         Transaction transaction = new Transaction(-Math.abs(amount));
         transactions.add(transaction);
-        setBalance(transaction.showAmount());
+        setBalance(transaction.getAmount());
     }
 
 
@@ -39,11 +38,11 @@ public class BankAccount {
         return statement.print();
     }
 
-    public void setBalance(int amount) {
+    public void setBalance(float amount) {
         balance += amount;
     }
 
-    public int getBalance() {
+    public float getBalance() {
         return balance;
     }
 

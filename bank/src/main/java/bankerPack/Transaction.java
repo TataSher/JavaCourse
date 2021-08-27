@@ -4,14 +4,14 @@ import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
 
 public class Transaction {
-    private int amount;
+    private float amount;
     private LocalDate date = LocalDate.now();
     private String kind;
 
-    public Transaction(int amount) {
+    public Transaction(float amount) {
         this.amount = amount;
     }
-    public int showAmount() {
+    public float getAmount() {
         return amount;
     }
 

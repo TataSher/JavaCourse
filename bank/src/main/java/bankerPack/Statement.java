@@ -9,7 +9,7 @@ public class Statement {
 
 
     public Statement (BankAccount bankAccount ) {
-        this.name = bankAccount.showName();
+        this.name = bankAccount.getName();
         this.transactions = bankAccount.getTransactions();
         this.account = bankAccount;
     }
@@ -25,12 +25,13 @@ public class Statement {
 
     private String printTransactions() {
         String output = "";
-        int printBalance = 0;
+        float statementBalance = 0;
         for (int i = 0; i < transactions.size(); i++) {
 
             Transaction transaction = (Transaction) transactions.get(i);
             System.out.println("TRANSACTION" + transaction + transactions);
-            printBalance += transaction.showAmount();
+            statementBalance += transaction.getAmount();
+            String printBalance = String.format("%.02f", statementBalance);
 
             output += transaction.getDate() + " | " + depositOrWithdrawal(transaction) + printBalance + "\n";
         }
@@ -38,10 +39,11 @@ public class Statement {
     }
 
     private String depositOrWithdrawal(Transaction transaction) {
+        String printAmount = String.format("%.02f", transaction.getAmount());
         if (transaction.getKind() == "deposit") {
-            return transaction.showAmount() + " | - | ";
+            return printAmount + " | - | ";
         } else if (transaction.getKind() == "withdrawal") {
-            return "- | " + transaction.showAmount() + " | ";
+            return "- | " + printAmount + " | ";
         }
         return null;
     }
