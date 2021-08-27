@@ -24,7 +24,7 @@ public class StatementTest {
         account1.deposit(100, LocalDate.of(2021, 8, 27));
         Statement statement1 = new Statement(account1);
         String result = statement1.print();
-        assertEquals("Account Holder: Kuma Bear\ndate || credit || debit || balance\n27/08/2021 || - || 100.00 || 100" +
+        assertEquals("Account Holder: Kuma Bear\ndate || credit || debit || balance\n27/08/2021 || 100.00 || - || 100" +
                 ".00\n" , result);
     }
 }

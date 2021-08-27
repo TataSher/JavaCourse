@@ -51,8 +51,7 @@ public class BankAccountTest {
     void testPrintStatementWithOneTransaction() {
         account1.deposit(100, LocalDate.of(2021, 8, 27));
         String result = account1.generateStatement();
-        assertEquals("Account Holder: Kumbajan Aubergino\ndate || credit || debit || balance\n27/08/2021 || - || 100" +
-                ".00 || 100.00\n", result);
+        assertEquals("Account Holder: Kumbajan Aubergino\ndate || credit || debit || balance\n27/08/2021 || 100.00 || - || 100.00\n", result);
     }
 
     @Test
@@ -60,8 +59,7 @@ public class BankAccountTest {
         account1.deposit(100, LocalDate.of(2021, 8, 27));
         account1.withdraw(10, LocalDate.of(2021, 8, 27));
         String result = account1.generateStatement();
-        assertEquals("Account Holder: Kumbajan Aubergino\ndate || credit || debit || balance\n27/08/2021 || - || 100" +
-                ".00 || 100.00\n27/08/2021 || -10.00 || - || 90.00\n", result);
+        assertEquals("Account Holder: Kumbajan Aubergino\ndate || credit || debit || balance\n27/08/2021 || 100.00 || - || 100.00\n27/08/2021 || - || 10.00 || 90.00\n", result);
     }
 
     @Test

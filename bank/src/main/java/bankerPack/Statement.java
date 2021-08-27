@@ -38,11 +38,11 @@ public class Statement {
     }
 
     private String depositOrWithdrawal(Transaction transaction) {
-        String printAmount = String.format("%.02f", transaction.getAmount());
+        String printAmount = String.format("%.02f", Math.abs(transaction.getAmount()));
         if (transaction.getKind() == "deposit") {
-            return "- || " + printAmount + " || ";
-        } else if (transaction.getKind() == "withdrawal") {
             return printAmount + " || - || ";
+        } else if (transaction.getKind() == "withdrawal") {
+            return "- || " + printAmount + " || ";
         }
         return null;
     }
