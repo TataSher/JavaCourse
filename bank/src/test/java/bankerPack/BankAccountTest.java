@@ -35,7 +35,12 @@ public class BankAccountTest {
     }
 
     @Test
-    void testShowTransactionsWithProhibitedWithdrawal() {
+    void testCantDepositNegativeAmount() {
+        Assertions.assertThrows(ArithmeticException.class, () -> account1.deposit(-20));
+    }
+
+    @Test
+    void testCantWithdrawWithMoreThanBalance() {
         Assertions.assertThrows(ArithmeticException.class, () -> account1.withdrawal(20));
     }
 

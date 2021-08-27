@@ -1,17 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="bankerPack.BankAccountTest" tests="8" skipped="0" failures="0" errors="0" timestamp="2021-08-27T12:36:06" hostname="MacBook-Air-KingDodo.local" time="0.1">
+<testsuite name="bankerPack.BankAccountTest" tests="9" skipped="0" failures="0" errors="0" timestamp="2021-08-27T12:48:29" hostname="MacBook-Air-KingDodo.local" time="0.131">
   <properties/>
-  <testcase name="testShowTransactionsWithDepositAndWithdrawal()" classname="bankerPack.BankAccountTest" time="0.04"/>
-  <testcase name="testCreateBankAccountWithName()" classname="bankerPack.BankAccountTest" time="0.001"/>
-  <testcase name="testCreateBankAccountWithBalance()" classname="bankerPack.BankAccountTest" time="0.002"/>
-  <testcase name="testGetFinalBalance()" classname="bankerPack.BankAccountTest" time="0.003"/>
-  <testcase name="testShowTransactionsWithProhibitedWithdrawal()" classname="bankerPack.BankAccountTest" time="0.002"/>
-  <testcase name="testShowTransactionsWithOneDeposit()" classname="bankerPack.BankAccountTest" time="0.002"/>
+  <testcase name="testCantWithdrawWithMoreThanBalance()" classname="bankerPack.BankAccountTest" time="0.05"/>
+  <testcase name="testShowTransactionsWithDepositAndWithdrawal()" classname="bankerPack.BankAccountTest" time="0.018"/>
+  <testcase name="testCreateBankAccountWithName()" classname="bankerPack.BankAccountTest" time="0.004"/>
+  <testcase name="testCreateBankAccountWithBalance()" classname="bankerPack.BankAccountTest" time="0.001"/>
+  <testcase name="testGetFinalBalance()" classname="bankerPack.BankAccountTest" time="0.001"/>
+  <testcase name="testCantDepositNegativeAmount()" classname="bankerPack.BankAccountTest" time="0.003"/>
+  <testcase name="testShowTransactionsWithOneDeposit()" classname="bankerPack.BankAccountTest" time="0.0"/>
   <testcase name="testPrintStatementWithOneTransaction()" classname="bankerPack.BankAccountTest" time="0.037"/>
   <testcase name="testPrintStatementWithTwoTransactions()" classname="bankerPack.BankAccountTest" time="0.002"/>
-  <system-out><![CDATA[TRANSACTIONbankerPack.Transaction@30fd5992[bankerPack.Transaction@30fd5992]
-TRANSACTIONbankerPack.Transaction@24ea82c8[bankerPack.Transaction@24ea82c8, bankerPack.Transaction@4b2a3cb9]
-TRANSACTIONbankerPack.Transaction@4b2a3cb9[bankerPack.Transaction@24ea82c8, bankerPack.Transaction@4b2a3cb9]
+  <system-out><![CDATA[TRANSACTIONbankerPack.Transaction@16e535eb[bankerPack.Transaction@16e535eb]
+TRANSACTIONbankerPack.Transaction@51d8adff[bankerPack.Transaction@51d8adff, bankerPack.Transaction@42376bc4]
+TRANSACTIONbankerPack.Transaction@42376bc4[bankerPack.Transaction@51d8adff, bankerPack.Transaction@42376bc4]
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
