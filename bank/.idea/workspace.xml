@@ -14,7 +14,6 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/main/bankerPack/BankAccount.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/bankerPack/BankAccount.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/main/bankerPack/Statement.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/bankerPack/Statement.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/bankerPack/Transaction.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/bankerPack/Transaction.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/test/bankerPack/BankAccountTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/bankerPack/BankAccountTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/test/bankerPack/StatementTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/bankerPack/StatementTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/test/bankerPack/TransactionTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/bankerPack/TransactionTest.class" afterDir="false" />
@@ -22,15 +21,14 @@
       <change beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/bankerPack.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/packages/bankerPack.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-bankerPack.BankAccountTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/TEST-bankerPack.BankAccountTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/tmp/compileTestJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileTestJava/previous-compilation-data.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/bankerPack/BankAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bankerPack/BankAccount.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/bankerPack/Statement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bankerPack/Statement.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/bankerPack/Transaction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bankerPack/Transaction.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/bankerPack/BankAccountTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/bankerPack/BankAccountTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/bankerPack/StatementTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/bankerPack/StatementTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/bankerPack/TransactionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/bankerPack/TransactionTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,6 +84,27 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
   </component>
   <component name="RunManager" selected="Gradle.BankAccountTest.testPrintStatementWithTwoTransactions">
+    <configuration name="BankAccountTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;bankerPack.BankAccountTest&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
     <configuration name="BankAccountTest.testPrintStatementWithOneTransaction" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -128,12 +147,12 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="BankAccountTest.testPrintStatementZeroTransactions" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="BankAccountTest.testShowFinalBalance" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;bankerPack.BankAccountTest.testPrintStatementZeroTransactions&quot;" />
+        <option name="scriptParameters" value="--tests &quot;bankerPack.BankAccountTest.testShowFinalBalance&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -149,33 +168,12 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="TransactionTest.testTransactionBalance" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="StatementTest.testShowTransactionsWithDepositAndWithdrawal" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;bankerPack.TransactionTest.testTransactionBalance&quot;" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="TransactionTest.testTransactionWithDate" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;bankerPack.TransactionTest.testTransactionWithDate&quot;" />
+        <option name="scriptParameters" value="--tests &quot;bankerPack.StatementTest.testShowTransactionsWithDepositAndWithdrawal&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -195,9 +193,9 @@
       <list>
         <item itemvalue="Gradle.BankAccountTest.testPrintStatementWithTwoTransactions" />
         <item itemvalue="Gradle.BankAccountTest.testPrintStatementWithOneTransaction" />
-        <item itemvalue="Gradle.TransactionTest.testTransactionBalance" />
-        <item itemvalue="Gradle.TransactionTest.testTransactionWithDate" />
-        <item itemvalue="Gradle.BankAccountTest.testPrintStatementZeroTransactions" />
+        <item itemvalue="Gradle.BankAccountTest" />
+        <item itemvalue="Gradle.BankAccountTest.testShowFinalBalance" />
+        <item itemvalue="Gradle.StatementTest.testShowTransactionsWithDepositAndWithdrawal" />
       </list>
     </recent_temporary>
   </component>
@@ -225,15 +223,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/bankerPack/Statement.java</url>
-          <line>29</line>
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
     <watches-manager>
       <configuration name="GradleRunConfiguration">
         <watch expression="this" />

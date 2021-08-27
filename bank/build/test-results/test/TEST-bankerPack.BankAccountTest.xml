@@ -1,9 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="bankerPack.BankAccountTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-08-26T21:09:47" hostname="MacBook-Air-KingDodo.local" time="0.054">
+<testsuite name="bankerPack.BankAccountTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2021-08-27T10:11:18" hostname="MacBook-Air-KingDodo.local" time="0.186">
   <properties/>
-  <testcase name="testPrintStatementWithTwoTransactions()" classname="bankerPack.BankAccountTest" time="0.054"/>
-  <system-out><![CDATA[TRANSACTIONbankerPack.Transaction@3cd80d86[bankerPack.Transaction@3cd80d86, bankerPack.Transaction@15d63a8a]
-TRANSACTIONbankerPack.Transaction@15d63a8a[bankerPack.Transaction@3cd80d86, bankerPack.Transaction@15d63a8a]
+  <testcase name="testCreateBankAccountWithName()" classname="bankerPack.BankAccountTest" time="0.059"/>
+  <testcase name="testCreateBankAccountWithBalance()" classname="bankerPack.BankAccountTest" time="0.001"/>
+  <testcase name="testShowFinalBalance()" classname="bankerPack.BankAccountTest" time="0.038"/>
+  <testcase name="testPrintStatementWithOneTransaction()" classname="bankerPack.BankAccountTest" time="0.066"/>
+  <testcase name="testPrintStatementWithTwoTransactions()" classname="bankerPack.BankAccountTest" time="0.006"/>
+  <system-out><![CDATA[TRANSACTIONbankerPack.Transaction@19b38f8[bankerPack.Transaction@19b38f8]
+TRANSACTIONbankerPack.Transaction@47d87644[bankerPack.Transaction@47d87644, bankerPack.Transaction@6a0b2de3]
+TRANSACTIONbankerPack.Transaction@6a0b2de3[bankerPack.Transaction@47d87644, bankerPack.Transaction@6a0b2de3]
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

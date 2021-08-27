@@ -24,11 +24,13 @@ public class BankAccount {
     void deposit (int amount) {
       Transaction transaction = new Transaction(amount);
         transactions.add(transaction);
+        addBalance(transaction.showAmount());
     }
 
     void withdrawal (int amount) {
         Transaction transaction = new Transaction(-Math.abs(amount));
         transactions.add(transaction);
+        addBalance(transaction.showAmount());
     }
 
 

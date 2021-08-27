@@ -22,6 +22,6 @@ public class StatementTest {
         account1.deposit(100);
         Statement statement1 = new Statement(account1);
         String result = statement1.print();
-        assertEquals("Account Holder: Kuma Bear\ndate| deposit | withdrawal | balance\n26-08-2021 | 100 | - | 100\n", result);
+        assertEquals("Account Holder: Kuma Bear\ndate| deposit | withdrawal | balance\n27-08-2021 | 100 | - | 100\n", result);
     }
 }

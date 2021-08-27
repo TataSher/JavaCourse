@@ -2,8 +2,6 @@ package bankerPack;
 
 import org.junit.jupiter.api.Test;
 
-import java.util.ArrayList;
-
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class BankAccountTest {
@@ -36,7 +34,7 @@ public class BankAccountTest {
         BankAccount account1 = new BankAccount("Kumbajan Aubergino");
         account1.deposit(100);
         String result = account1.printStatement();
-        assertEquals("Account Holder: Kumbajan Aubergino\ndate| deposit | withdrawal | balance\n26-08-2021 | 100 | - | 100\n", result);
+        assertEquals("Account Holder: Kumbajan Aubergino\ndate| deposit | withdrawal | balance\n27-08-2021 | 100 | - | 100\n", result);
     }
 
     @Test
@@ -45,7 +43,16 @@ public class BankAccountTest {
         account1.deposit(100);
         account1.withdrawal(10);
         String result = account1.printStatement();
-        assertEquals("Account Holder: Kumbajan Aubergino\ndate| deposit | withdrawal | balance\n26-08-2021 | 100 | - | 100\n26-08-2021 | - | -10 | 90\n", result);
+        assertEquals("Account Holder: Kumbajan Aubergino\ndate| deposit | withdrawal | balance\n27-08-2021 | 100 | - | 100\n27-08-2021 | - | -10 | 90\n", result);
+    }
+
+    @Test
+    void testShowFinalBalance() {
+        BankAccount account1 = new BankAccount("Kumbajan Aubergino");
+        account1.deposit(100);
+        account1.withdrawal(10);
+        int result = account1.showFinalBalance();
+        assertEquals(90, result);
     }
 
 

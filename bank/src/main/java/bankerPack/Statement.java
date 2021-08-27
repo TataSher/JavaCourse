@@ -25,13 +25,14 @@ public class Statement {
 
     private String printTransactions() {
         String output = "";
+        int printBalance = 0;
         for (int i = 0; i < transactions.size(); i++) {
 
             Transaction transaction = (Transaction) transactions.get(i);
             System.out.println("TRANSACTION" + transaction + transactions);
-            account.addBalance(transaction.showAmount());
+            printBalance += transaction.showAmount();
 
-            output += transaction.showDate() + " | " + depositOrWithdrawal(transaction) + account.showBalance() + "\n";
+            output += transaction.showDate() + " | " + depositOrWithdrawal(transaction) + printBalance + "\n";
         }
         return output;
     }
