@@ -6,11 +6,11 @@ import java.util.ArrayList;
 public class Statement {
     private String name;
     private ArrayList transactions = new ArrayList();
-    private BankAccount account;
+    private IBankAccount account;
     private LocalDate transactionDate;
 
 
-    public Statement (BankAccount bankAccount ) {
+    public Statement (IBankAccount bankAccount ) {
         this.name = bankAccount.getName();
         this.transactions = bankAccount.getTransactions();
         this.account = bankAccount;

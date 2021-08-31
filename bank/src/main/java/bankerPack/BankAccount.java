@@ -3,7 +3,7 @@ package bankerPack;
 import java.time.LocalDate;
 import java.util.ArrayList;
 
-public class BankAccount {
+    public class BankAccount implements IBankAccount {
     private float balance = 0;
     private String name ;
     private ArrayList transactions = new ArrayList();
@@ -12,11 +12,13 @@ public class BankAccount {
         this.name = name;
         this.balance = 0;
     }
-    ArrayList getTransactions () { return transactions; }
+    @Override
+    public ArrayList getTransactions() { return transactions; }
 
-    String getName () { return name; }
+    @Override
+    public String getName() { return name; }
 
-    void deposit (float amount, LocalDate of) {
+    public void deposit (float amount, LocalDate of) {
         positiveAmount(amount);
         Transaction transaction = new Transaction(amount, of);
         transactions.add(transaction);
@@ -29,7 +31,7 @@ public class BankAccount {
          }
     }
 
-    void withdraw(float amount, LocalDate of) {
+    public void withdraw(float amount, LocalDate of) {
         insufficientFunds(amount);
         Transaction transaction = new Transaction(-Math.abs(amount), of);
         transactions.add(transaction);
@@ -51,6 +53,7 @@ public class BankAccount {
         balance += amount;
     }
 
+    @Override
     public float getBalance() {
         return balance;
     }
