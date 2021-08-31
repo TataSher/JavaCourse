@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="bankerPack.BankAccountTest" tests="10" skipped="0" failures="0" errors="0" timestamp="2021-08-31T08:57:40" hostname="MacBook-Air-KingDodo.local" time="0.122">
+  <properties/>
+  <testcase name="testCantWithdrawWithMoreThanBalance()" classname="bankerPack.BankAccountTest" time="0.052"/>
+  <testcase name="testShowTransactionsWithDepositAndWithdrawal()" classname="bankerPack.BankAccountTest" time="0.003"/>
+  <testcase name="testCreateBankAccountWithName()" classname="bankerPack.BankAccountTest" time="0.002"/>
+  <testcase name="testCreateBankAccountWithBalance()" classname="bankerPack.BankAccountTest" time="0.001"/>
+  <testcase name="testGetFinalBalance()" classname="bankerPack.BankAccountTest" time="0.001"/>
+  <testcase name="testCantDepositNegativeAmount()" classname="bankerPack.BankAccountTest" time="0.001"/>
+  <testcase name="testPrintStatementWithTwoTransactionsAtDifferentDates()" classname="bankerPack.BankAccountTest" time="0.039"/>
+  <testcase name="testShowTransactionsWithOneDeposit()" classname="bankerPack.BankAccountTest" time="0.0"/>
+  <testcase name="testPrintStatementWithOneTransaction()" classname="bankerPack.BankAccountTest" time="0.003"/>
+  <testcase name="testPrintStatementWithTwoTransactions()" classname="bankerPack.BankAccountTest" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
